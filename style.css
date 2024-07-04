@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.menus {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.menus li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.59px;
+    color: rgb(33, 2, 63);
+    transition: 1s;
+}
+
+.menus li a:hover {
+    color: rgb(0, 255, 8);
+    font-size: 30px;
+}
+
+.healthcare {
+    display: flex;
+    align-items: centre;
+    gap: 130px;
+}
+
+h1 {
+
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 56px;
+
+}
+
+.healthcare-text p {
+
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 32px;
+    margin: 26px 0 36px 0;
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: 700px;
+    line-height: 22.59px;
+    color: #458FF6;
+    padding: 17px 51px;
+    border-radius: 1.4px solid #458FF6;
+    border-radius: 55px;
+    background-color: white;
+    transition: 1s;
+}
+
+.btn:hover {
+    background: #458FF6;
+    color: white;
+    font-size: 30px;
+}
+
+.services {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services h2 {
+
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 56px;
+
+
+}
+
+.services p {
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    color: rgb(112, 102, 114);
+    max-width: 952px;
+    margin: 40px auto;
+
+
+}
+
+.card {
+    width: 380px;
+    background-color: white;
+    box-shadow: 10px 40px 50px 0px rgb(112, 102, 114);
+    padding: 68px 39px 28px 39px;
+    text-align: left;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.card h3 {
+
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-top: 10px;
+}
+
+.cars p {
+    margin: 15px 0;
+    text-align: left;
+}
+
+.katta-ota {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.card:hover {
+    background-color: rgb(82, 151, 230);
+    color: white;
+}
+
+.info{
+    padding: 50px 0;
+
+}
+.info h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+  text-align: center;
+}
+.info-ota{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 30px;
+}
+.info p{
+    margin: 20px 0;
+    color: gray;
+}
+
+.article{
+    padding: 50px 0;
+    text-align: center;
+}
+.article h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.card2{
+    width: 380px;
+}
+.card2-ota{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.card2 img{
+    width: 100%;
+}
